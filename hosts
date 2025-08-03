@@ -1,0 +1,6 @@
+修改 hosts 文件
+Windows：路径 C:\Windows\System32\drivers\etc\hosts（需管理员权限，用记事本打开编辑）。
+Mac/Linux：路径 /etc/hosts（终端执行 sudo vim /etc/hosts 编辑，保存时输入密码）。
+保存后刷新 DNS 缓存：
+Windows：ipconfig /flushdns（cmd 管理员模式）
+Mac/Linux：sudo dscacheutil -flushcache 或 sudo systemctl restart nscd
