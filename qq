@@ -1,0 +1,3 @@
+@UGREEN绿联: 检测是否能修复指令：Dism /Online /Cleanup-Image /CheckHealth
+@UGREEN绿联: 提示可修复指令：Dism /Online /Cleanup-Image /RestoreHealth
+@UGREEN绿联: 检测是否有损坏指令：Dism /Online /Cleanup-Image /ScanHealth
